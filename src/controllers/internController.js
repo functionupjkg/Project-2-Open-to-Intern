@@ -3,6 +3,7 @@ const collegeModel = require("../models/collegeModel")
 
 
 
+
 // <<======================== validation function Imported here ===============================>>>
 
 const {isValidBody, isValidEmail, isValidMobile, isValid, isValidintern} = require("../validation/validation")

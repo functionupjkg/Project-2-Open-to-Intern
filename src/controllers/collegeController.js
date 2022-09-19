@@ -3,6 +3,7 @@ const interModel = require("../models/internModel");
 
 
 
+
 // <<======================== validation function Imported here ===============================>>>
 const { isValid, isValidLogoLink } = require("../validation/validation")
 

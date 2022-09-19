@@ -10,6 +10,7 @@ const isValidintern = function (name){
 }
 
 
+
 //<<----------------Validation for College Name ---------------->>
 const isValid = function (value) {
     if (typeof value === "undefined" || value === null) return false;
@@ -34,6 +35,7 @@ const isValidMobile = function (mobile) {
 const isValidLogoLink = function (logoLink) {
     return (/(http[s]:\/\/)([a-z\-0-9\/.]+)\.([a-z.]{2,3})\/([a-z0-9\-\/._~:?#\[\]@!$&'()+,;=%]*)([a-z0-9]+\.)(jpg|jpeg|png)/i).test(logoLink);
 }
+
 
 
 

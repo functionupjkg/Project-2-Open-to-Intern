@@ -7,7 +7,7 @@ const app = express();
 
 app.use(bodyParser.json());
 app.use(multer().any())
-// app.use(bodyParser.urlencoded ({extented : true}))
+app.use(bodyParser.urlencoded ({extented : true}))
 
 
 
@@ -21,6 +21,7 @@ mongoose.connect("mongodb+srv://Jyoti273-db:djukOqR9QbI5Itvc@cluster0.nzuylps.mo
 
 
 app.use("/", route);
+
 
 
 
